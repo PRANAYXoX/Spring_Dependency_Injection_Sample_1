@@ -9,6 +9,14 @@
     <property name="name" value="PRANAY"/>
     <property name="roll" value="XTG8900234"/>
     <property name="marks" value="89"/>
+    <property name="address" ref="bean_2"/>
+  </bean>
+  
+   <bean id="bean_2" class="di.spring.beans.Address">
+    <!-- collaborators and configuration for this bean go here -->
+    <property name="street" value="South Avenue 2"/>
+    <property name="city" value="NYC"/>
+    <property name="pin" value="612005"/>
   </bean>
   
   </beans>

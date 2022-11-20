@@ -12,7 +12,7 @@ public class StudentBeanProcessor implements BeanPostProcessor {
 		Student std=(Student)obj;
 		std.setName("MIKHAEL");
 		std.setRoll("RON--504");
-		return obj;
+		return std;
 	}
 
 	@Override

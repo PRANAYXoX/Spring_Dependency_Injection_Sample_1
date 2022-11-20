@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="bean_1" class="sp.beans.Student">
+			<property name="name" value="Mikhael" />
+			<property name="roll" value="GT504" />
+			<property name="marks" value="91" />
+		</bean>
+	<bean id="bean_2" class="sp.beans.Employee">
+		<property name="name" value="Mikhael" />
+		<property name="phoneNo" value="9001199002" />
+	</bean>
+	<bean id="postProcessor" class="sp.postprocessor.BeanProcessors"/>
+</beans>

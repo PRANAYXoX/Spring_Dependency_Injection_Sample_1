@@ -8,4 +8,6 @@
 				<property name="name"  value="Pranay" />         
           		<property name="roll"  value="GTX123OO5" />
           </bean>
+          
+          <bean id="bean_processor" class="sp.processor.StudentBeanProcessor" />
 </beans>

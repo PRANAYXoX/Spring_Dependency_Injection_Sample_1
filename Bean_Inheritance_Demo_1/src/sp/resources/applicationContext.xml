@@ -10,4 +10,7 @@
            		<property name="city" value="Ranchi" />
            		<property name="aadhaarCard" value="6203345" />
            </bean>
+           
+            <bean id="emp_bean" class="sp.beans.Employee" parent="std_bean" />
+           		
   </beans>

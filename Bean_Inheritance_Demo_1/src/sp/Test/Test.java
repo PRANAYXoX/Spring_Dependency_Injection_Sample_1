@@ -10,6 +10,8 @@ public class Test {
 		Student std=(Student)ctx.getBean("std_bean");
 		std.display();
 		System.out.print("\n------------------------------------");
+		Employee emp=(Employee)ctx.getBean("emp_bean");
+		emp.display();
 	}
 
 }

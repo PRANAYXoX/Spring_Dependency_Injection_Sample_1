@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+           
+           <bean id="template" abstract="true">
+           		<property name="name" value="Mikhael" />
+           		<property name="phoneNo" value="6004599123" />
+           		<property name="city" value="Ranchi" />
+           		<property name="aadhaarCard" value="6203345" />
+           </bean>
+           
+           <bean id="std" class="sp.beans.Student" parent="template"/>
+           <bean id="emp" class="sp.beans.Employee" parent="template"/>
+           		
+  </beans>

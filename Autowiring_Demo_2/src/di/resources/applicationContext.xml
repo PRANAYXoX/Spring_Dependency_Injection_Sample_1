@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <bean id="bean_std" class="di.beans.Student" autowire="byName">
+  	<property name="name" value="RANJAN"/>
+  	<property name="rollno" value="20445"/>
+  	
+  </bean>
+  
+  <bean id="address" class="di.beans.Address">
+  		<property name="houseNo" value="HH_NO:12345"/>
+  		<property name="street" value="PISKA MORE"/>
+  		<property name="city" value="RANCHI"/>
+  </bean>
+  
+  <bean id="subjects" class="di.beans.Subjects">
+  	<property name="subjects">
+		<list>
+			<value>MATH</value>
+			<value>PHYSICS</value>
+			<value>BIOLOGY</value>
+		</list>  		
+  	</property>
+  
+  </bean>
+  
+</beans>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <bean id="bean_std" class="di.beans.Student" autowire="constructor">
+  	<constructor-arg value="RANJAN" index="0"/>
+  	<constructor-arg value="20445" index="1"/>
+  	
+  </bean>
+  
+  <bean id="address" class="di.beans.Address">
+  		<constructor-arg value="HH_NO:12345"/>
+  		<constructor-arg value="PISKA MORE"/>
+  		<constructor-arg value="RANCHI"/>
+  </bean>
+</beans>

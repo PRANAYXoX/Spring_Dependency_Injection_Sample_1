@@ -17,7 +17,7 @@
     <property name="city" value="Dublin"/>
   </bean>
   
-  <bean id="address1" class="sp.beans.Address">
+  <bean id="address2" class="sp.beans.Address">
     <!-- collaborators and configuration for this bean go here -->
     <property name="houseno" value="5614"/>
     <property name="street" value="Grade Avenue 88"/>
